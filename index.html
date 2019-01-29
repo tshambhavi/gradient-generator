@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gradient Generator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla:400,700|Spectral:600"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body id="page">
+    <header>
+      <div class="title--container">
+        <h1 class="title">
+          <span class="title--small">CSS</span> Gradient Generator
+        </h1>
+        <p class="title--tagline">
+          A value for the <code class="title--code">background</code> property
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="generators">
+        <div class="container tile-container">
+          <p class="instruction">
+            Use the following tiles to generate a linear gradient.
+          </p>
+          <input type="color" name="color1" id="color1" value="#93f9b9" />
+          <input type="color" name="color2" id="color2" value="#1d976c" />
+        </div>
+        <div class="container button-container">
+          <p class="instruction">Or click the following button.</p>
+          <button class="button-generator">Generate gradient</button>
+        </div>
+      </section>
+      <section class="result">
+        <h2>The Generated Gradient in&nbsp;Code</h2>
+        <p class="gradient-code-container"></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
