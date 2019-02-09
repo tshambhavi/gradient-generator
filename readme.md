@@ -1,6 +1,6 @@
 # CSS Gradient Generator
 
-This web page uses JavaScript to perform the following tasks:
+This gradient generator is a variant of a project from <a href='https://www.udemy.com/the-complete-web-developer-zero-to-mastery' target='_blank'>The Complete Web Developer</a>. The generator uses JavaScript to perform the following tasks:
 
 - On page load
 
